@@ -7,7 +7,6 @@ cache:
 python:
   - "2.7"
   - "3.6"
-  - "pypy"
   - "pypy3"
 matrix:
   # pypy3 (as of 2.4.0) has a wacky arity issue in its source loader. Allow it
